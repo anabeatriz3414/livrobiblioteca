@@ -1,0 +1,88 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Georgia", serif;
+}
+
+/* Fundo */
+body {
+    background-color: #fff8f0; /* bege clarinho */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #b22222; /* vermelho elegante */
+    border-radius: 10px;
+    color: white;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+header .subtitulo {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Capa */
+.capa img {
+    width: 180px; /* menor e proporcional */
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    margin: 20px 0;
+}
+
+/* Seções */
+.info {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Títulos das seções */
+h2 {
+    color: #b22222;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f08080;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    font-size: 1rem;
+    margin: 6px 0;
+}
+
+li::before {
+    content: "• ";
+    color: #b22222;
+    font-weight: bold;
+}
